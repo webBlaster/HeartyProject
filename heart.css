@@ -129,7 +129,7 @@ body {
 #secondhead {
   font-size: 50px;
   font-weight: 900;
-  margin-left: 100px;
+  /* margin-left: 100px; */
 }
 #secondhead2 {
   font-size: 16px;
@@ -145,7 +145,7 @@ body {
   font-weight: 100;
   font-style: light;
   border: none;
-  margin-left: 130px;
+  /* margin-left: 130px; */
   padding-left: 0;
   text-align: left;
 }
@@ -351,6 +351,9 @@ ul li {
 
 /*for responsize text*/
 @media only screen and (max-width: 1369px) {
+  #first {
+    height: 540px;
+  }
   #vessels {
     height: 735.8px;
   }
@@ -450,8 +453,8 @@ ul li {
     display: none;
   }
   #secondhead {
-    font-size: 25px;
-    margin-left: 20px;
+    font-size: 20px;
+    /* margin-left: 20px; */
   }
   #secondhead2 {
     font-size: 12px;
