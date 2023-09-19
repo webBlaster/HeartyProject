@@ -379,26 +379,6 @@ ul li {
 }
 @media only screen and (max-width: 1068px) {
   #firsthead {
-    font-size: 60px;
-  }
-  #vessels {
-    display: none;
-  }
-  #secondhead {
-    font-size: 40px;
-  }
-  #secondhead2 {
-    font-size: 20px;
-  }
-  .secondtext {
-    font-size: 15px;
-  }
-  #thirdhead {
-    font-size: 30px;
-  }
-}
-@media only screen and (max-width: 668px) {
-  #firsthead {
     font-size: 40px;
   }
   #vessels {
