@@ -377,10 +377,7 @@ ul li {
     display: none;
   }
 }
-@media only screen and (max-width: 868px) {
-#first {
-    height: 540px;
-  }
+@media only screen and (max-width: 1068px) {
   #firsthead {
     font-size: 60px;
   }
