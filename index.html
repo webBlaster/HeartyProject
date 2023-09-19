@@ -1,203 +1,410 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>hearty</title>
-	  <meta name="viewport" content="width=device-width, initial-scale=1">
-	  <link rel="stylesheet" type="text/css" href="heart.css">
-	  <link rel="stylesheet" type="text/css" href="button.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Muli:900" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-</head>
-<body>
-<!--this is the part that pops out-->
-<div class="box" id="popout">
-<div class="contain" onclick="myFunction(this)" style="margin-top:40px;">
-  <div class="bar1"></div>
-  <div class="bar2"></div>
-  <div class="bar3"></div>
-</div>
-<h1 id="poptop">There are 3 ways to join</h1>
+  <head>
+    <title>hearty</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="heart.css" />
+    <link rel="stylesheet" type="text/css" href="button.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli:900"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--this is the part that pops out-->
+    <div class="box" id="popout">
+      <div
+        class="contain change"
+        onclick="myFunction(this)"
+        style="margin-top: 40px"
+      >
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+      <h1 id="poptop">There are 3 ways to join</h1>
 
-
-<h4 id="poptop2">We're excited you're interested in joining the Hearty Project.You can<br>
-participate in one or more of the ways listed below:
-</h4>
-	<div class="row" id="dowell">
-		<div class="col-sm-3 pop">
-			<h1 class="pophead2">01</h1>
-			<h2 class="pophead">BECOME A<br>PIONEER <br>PHYSICIAN</h2>
-			<p class="poptext">Pioneer Physicians are the first<br>
-			set of doctors to use our<br>
-			solutions with their patients</p>
-			<div class="popbutton">BECOME A PIONEER</div>
-		</div>
-		<div class="col-sm-3 pop">
-			<h1 class="pophead2">02</h1>
-			<h2 class="pophead">CONTRIBUTE<br>YOUR<br>EXPERTISE</h2>
-			<p class="poptext">We're excited to welcome individuals with expertise that<br>
-			meet <span class="span2">project needs</span></p>
-			<div class="popbutton">JOIN OUR TEAM</div>
-		</div>
-		<div class="col-sm-3 pop">
-			<h1 class="pophead2">03</h1>
-			<h2 class="pophead">FUND <br>OUR<br>KICKSTARTER</h2>
-			<p class="poptext">We're raising funds to meet the<br>
-			project goals on kickstarter and<br>
-			it'll be nice to have you fund us</p>
-			<div class="popbutton">FUND OUR KICKSTARTER</div>
-		</div>
-	</div>
-</div>
-<!--this is the first section -->
-
-<div class="box" id="first">
-	<div class="row" style="padding:0px; margin:0px;">
-		<div class="col-sm-7" style="text-align:left;">
-		<img src="The_Hearty_Project_Logo_Colored.svg" height="70" id="firstlogo"/>
-		<h1 id="firsthead" class="heading">Help move <br>medicine forward</h1>
-		<p id="para">we're harnessing the power of new technology for<br> cardiovascular preventive care</p>
-		<div class="button" id="firstbutton">JOIN THE HEARTY PROJECT</div>
-	</div>
-	<div class="col-sm-5" style="float:left;">
-		<img src="Hearty_Vessels.svg"  id="vessels"/>
-	</div>
-	</div>
-</div>
-<!--second section -->
-<div class="box" id="second">
-	<div class="container">
-  <h5 id="secondhead2" class="butttext"style="text-align:center;margin-top:70px;">ABOUT THE HEARTY PROJECT</h5>
-  <h1 id="secondhead" class="heading" style="text-align:left; margin-top:50px">We have <span id="span">a long story </span>on our journey up
-   to this point, but here is a fair summary</h1>   
-  <div class="row" style="margin-top:70px;">
-    <div class="col-md-6" style=";">
-	<p class="secondtext" id="secondtext1">
-	The Hearty Project came from a desire to harness the
-	power of recent technology for advancing medicine;
-	its an ongoing effort that has been contributed too by a
-	number of people over the past few years and now based
-	on learning,insights,we're on a few technologies that can
-	be easily exploited and an area of care that we consider
-	most receptive i.e. Cardiovascular Preventive Care.
-	 </p>
+      <h4 id="poptop2">
+        We're excited you're interested in joining the Hearty Project.You can<br />
+        participate in one or more of the ways listed below:
+      </h4>
+      <div class="row" id="dowell">
+        <div class="col-sm-3 pop">
+          <h1 class="pophead2">01</h1>
+          <h2 class="pophead">BECOME A<br />PIONEER <br />PHYSICIAN</h2>
+          <p class="poptext">
+            Pioneer Physicians are the first<br />
+            set of doctors to use our<br />
+            solutions with their patients
+          </p>
+          <div class="popbutton">BECOME A PIONEER</div>
+        </div>
+        <div class="col-sm-3 pop">
+          <h1 class="pophead2">02</h1>
+          <h2 class="pophead">CONTRIBUTE<br />YOUR<br />EXPERTISE</h2>
+          <p class="poptext">
+            We're excited to welcome individuals with expertise that<br />
+            meet <span class="span2">project needs</span>
+          </p>
+          <div class="popbutton">JOIN OUR TEAM</div>
+        </div>
+        <div class="col-sm-3 pop">
+          <h1 class="pophead2">03</h1>
+          <h2 class="pophead">FUND <br />OUR<br />KICKSTARTER</h2>
+          <p class="poptext">
+            We're raising funds to meet the<br />
+            project goals on kickstarter and<br />
+            it'll be nice to have you fund us
+          </p>
+          <div class="popbutton">FUND OUR KICKSTARTER</div>
+        </div>
+      </div>
     </div>
-    <div class="col-md-6" style=";">  
-	<p class="secondtext" id="secondtext2"> 
-	Simply put, a system for better managing hypertension
-	through improved monitoring
-	<span class="span2">Over the next year,</span> we'll optimize for the best solution that
-	creates value with <span class="span2">our pioneers,</span> conduct a study to verify if
-	the solution helps improve compliance + blood pressure
-	decline; and finally we'll scale the use to increase the
-	amount of data to such as is necessary to build useful
-	predictive models or other valuable insights for care.
-	 </p>
+    <!--this is the first section -->
+
+    <div class="box" id="first">
+      <div class="row" style="padding: 0px; margin: 0px">
+        <div class="col-sm-6" style="text-align: left">
+          <img
+            src="The_Hearty_Project_Logo_Colored.svg"
+            height="70"
+            id="firstlogo"
+          />
+          <h1 id="firsthead" class="heading">
+            Help move <br />medicine forward
+          </h1>
+          <p id="para">
+            we're harnessing the power of new technology for<br />
+            cardiovascular preventive care
+          </p>
+          <div class="button" id="firstbutton">JOIN THE HEARTY PROJECT</div>
+        </div>
+
+        <div class="col-sm-6" style="float: left">
+          <img src="Hearty_Vessels.svg" id="vessels" />
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="button" id="secondbutton" style="margin-top:50px;">JOIN THE HEARTY PROJECT</div>
-</div>
-</div>
-<!--this is the third section-->
-<div class="box"id="third">
-	<div class="container" style="padding-bottom:100px;">
-	<h4 id="thirdhead2" style="margin-top:70px;">PROJECT CONTRIBUTORS & SUPPORT</h4>
-	<h1 class="heading" id="thirdhead">Noble Physicians,Rockstar Engineers,<br>
-	Shiny Designers,Supersmart Professors.</h1>
-	<p class="p">The Hearty Project is currently made possible through a diverse network of contributors(Physicians,Designers,
-	Engineers,Students,Professors),advisors and support</p>
-	
-	<div class="row"  style="margin-top:50px;">
-  <div class="col-sm-3">
-  	<ul>
-  		<li><span class="namelist"><a href="#" class="link">CHUMA ASUZU</a></span></li>
-  		<li><span class="namelist"><a href="#" class="link">DAYO OSHOLOWU</a></span></li>
-  		<li><span class="namelist"><a href="#" class="link">DAYO OLAKULEHIN</a></span></li>
-  		<li><span class="namelist"><a href="#" class="link">DELE OLUKAYODE</a></span></li>
-  		<li><span class="namelist"><a href="#" class="link">DOENJA MARIS</a></span></li>
-  	</ul>
-  </div>
-  <div class="col-sm-3">
-  	<ul>
-  		<li><span class="namelist"><a href="https://ng.linkedin.com/in/edward-poluyi-3420911b" class="link">EDWARDS POLUYI</a></span></li>
-  		<li><span class="namelist"><a href="#" class="link">EMMANUEL ODUNLADE</a></span></li>
-  		<li><span class="namelist"><a href="#" class="link">EZEKIEL BORO</a></span></li>
-  		<li><span class="namelist"><a href="#" class="link">G YOUNG VAN</a></span></li>
-  		<li><span class="namelist"><a href="#" class="link">HIMANSHU MISHRA</a></span></li>
-  	</ul>
-  </div>
-  <div class="col-sm-3">
-  	<ul>
-  		<li><span class="namelist"><a href="#" class="link">IBRAHIM AKANBI</a></span></li>
-  		<li><span class="namelist"><a href="#" class="link">IBRAHIM YEKINNI</a></span></li>
-  		<li><span class="namelist" ><a href="#" class="link">J.C.DIEHL</a></span></li>
-  		<li><span class="namelist"><a href="#" class="link">J.N.AJULUCHUKWU</a></span></li>
-  		<li><span class="namelist"><a href="#" class="link">JIBOLA YEKINNI</a></span></li>
-  	</ul>
-  </div>
-  <div class="col-sm-3">
-  	<ul>
-  		<li><span class="namelist"><a href="#" class="link">LAWAL BAKARE</a></span></li>
-  		<li><span class="namelist"><a href="#" class="link">LENNAERT KEMPERS</a></span></li>
-  		<li><span class="namelist"><a href="#" class="link">MASAKO KITAZAKI</a></span></li>
-  		<li><span class="namelist"><a href="#" class="link">MAYA ISLA MCBEATH</a></span></li>
-  	</ul>
-  </div>
-	</div> 
-	<div class="row" style="margin-top:50px;margin-bottom:200px;">
-  <div class="col-sm-3">
-  	<ul>
-  		<li><span class="namelist"><a href="#" class="link">OBINNA NNEWUIHE</a></span></li>
-  		<li><span class="namelist"><a href="#" class="link">OLAJIDE OBASAN</a></span></li>
-  		<li><span class="namelist"><a href="#" class="link">OLAKUNLE YEKINNI</a></span></li>
-  		<li><span class="namelist"><a href="#" class="link">OLAKUNMI OGUNYEMI</a></span></li>
-  		<li><span class="namelist"><a href="#" class="link">OMOTOLA OREDIPE</a></span></li>
-  	</ul>
-  </div>
-  <div class="col-sm-3">
-  	<ul>
-  		<li><span class="namelist"><a href="#" class="link">PAUL CHANG</a></span></li>
-  		<li><span class="namelist"><a href="#" class="link">SAMOD SAMUSI</a></span></li>
-  		<li><span class="namelist"><a href="#" class="link">SANDRA ONWUEKWE</a></span></li>
-  		<li><span class="namelist"><a href="#" class="link">SHIVI KAPIL</a></span></li>
-  	</ul>
-  </div>
-  <div class="col-sm-6">
-  	<ul>
-  		<li><span class="namelist"><a href="https://ng.linkedin.com/in/temilolorun-aiyelari-81ab5b57" class="link"style="text-decoration:none;">TEMILOLORUN AIYELARI</a></span></li>
-  		<li><span class="namelist"><a href="#" class="link">TINE HOOGTERP</a></span></li>
-  		<li><span class="namelist"><a href="#" class="link">TOBIAS HEBBINK</a></span></li>
-  		<li><span class="namelist"><a href="#" class="link">TOPE AGBANA</a></span></li>
-  		<li><span class="namelist"><a href="#" class="link">VICTOR NWAOKOCHA</a></span></li>
-  	</ul>
-  </div>
-	</div>
-	<div id="thirdbutton" class="button">JOIN THE HEARTHY PROJECT</div>
-	</div>
-	<!--this part for the logo parts-->
-</div>
-<!--this is the footer magic baby-->
-<footer id="footer">
-<div class="row" id="foot">
-	<div class="col-sm-6" id="footer2">
-	<p style="color:#333d47;">.</p>
-		<h3 id="foothead2">GET UPDATES, LEAVE US YOUR EMAIL</h3>
-		<input type="textarea" value="you@email.com" id="input">
-		<button id="inputbutt">SUBSCRIBE FOR UPDATES</button>
-	</div>
-	<div class="col-sm-6" id="footer1">
-	<img id="footerlogo"src="The_Hearty_Project_Logo_Monochrome.svg" height="70"/>
-		<ul id="footerlisthead">
-			<li class="footerlist"><img src="1498945850_facebook_circle_gray.svg" height="30"/>  	FACEBOOK</li>
-			<li class="footerlist"><img src="1498945806_twitter_circle_gray.svg" height="30"/>  	TWITTER</li>
-			<li class="footerlist"><img src="1498945786_instagram_circle_gray.svg" height="30"/>  	INSTAGRAM</li>
-			<li class="footerlist"><img src="if_medium_social_media_logo_1407938.svg" height="29"/>	READ THE PROJECT DIARY</li>
-		</ul>
-		<h4 id="footercopy">The Hearty Project,Copyright 2017 | Legal</h4>
-	</div>
-</div>
-</footer>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="heart.js"></script>
-</body>
+    <!--second section -->
+    <div class="box" id="second">
+      <div class="container">
+        <h5
+          id="secondhead2"
+          class="butttext"
+          style="text-align: center; margin-top: 70px"
+        >
+          ABOUT THE HEARTY PROJECT
+        </h5>
+        <h1
+          id="secondhead"
+          class="heading"
+          style="text-align: left; margin-top: 50px"
+        >
+          We have <span id="span">a long story </span>on our journey up to this
+          point, but here is a fair summary
+        </h1>
+        <div class="row" style="margin-top: 70px">
+          <div class="col-md-6">
+            <p class="secondtext" id="secondtext1">
+              The Hearty Project came from a desire to harness the power of
+              recent technology for advancing medicine; its an ongoing effort
+              that has been contributed too by a number of people over the past
+              few years and now based on learning,insights,we're on a few
+              technologies that can be easily exploited and an area of care that
+              we consider most receptive i.e. Cardiovascular Preventive Care.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <p class="secondtext" id="secondtext2">
+              Simply put, a system for better managing hypertension through
+              improved monitoring
+              <span class="span2">Over the next year,</span> we'll optimize for
+              the best solution that creates value with
+              <span class="span2">our pioneers,</span> conduct a study to verify
+              if the solution helps improve compliance + blood pressure decline;
+              and finally we'll scale the use to increase the amount of data to
+              such as is necessary to build useful predictive models or other
+              valuable insights for care.
+            </p>
+          </div>
+        </div>
+        <div class="button" id="secondbutton" style="margin-top: 50px">
+          JOIN THE HEARTY PROJECT
+        </div>
+      </div>
+    </div>
+    <!--this is the third section-->
+    <div class="box" id="third">
+      <div class="container" style="padding-bottom: 100px">
+        <h4 id="thirdhead2" style="margin-top: 70px">
+          PROJECT CONTRIBUTORS & SUPPORT
+        </h4>
+        <h1 class="heading" id="thirdhead">
+          Noble Physicians,Rockstar Engineers,<br />
+          Shiny Designers,Supersmart Professors.
+        </h1>
+        <p class="p">
+          The Hearty Project is currently made possible through a diverse
+          network of contributors(Physicians,Designers,
+          Engineers,Students,Professors),advisors and support
+        </p>
+
+        <div class="row" style="margin-top: 50px">
+          <div class="col-sm-3">
+            <ul>
+              <li>
+                <span class="namelist"
+                  ><a href="#" class="link">CHUMA ASUZU</a></span
+                >
+              </li>
+              <li>
+                <span class="namelist"
+                  ><a href="#" class="link">DAYO OSHOLOWU</a></span
+                >
+              </li>
+              <li>
+                <span class="namelist"
+                  ><a href="#" class="link">DAYO OLAKULEHIN</a></span
+                >
+              </li>
+              <li>
+                <span class="namelist"
+                  ><a href="#" class="link">DELE OLUKAYODE</a></span
+                >
+              </li>
+              <li>
+                <span class="namelist"
+                  ><a href="#" class="link">DOENJA MARIS</a></span
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-3">
+            <ul>
+              <li>
+                <span class="namelist"
+                  ><a
+                    href="https://ng.linkedin.com/in/edward-poluyi-3420911b"
+                    class="link"
+                    >EDWARDS POLUYI</a
+                  ></span
+                >
+              </li>
+              <li>
+                <span class="namelist"
+                  ><a href="#" class="link">EMMANUEL ODUNLADE</a></span
+                >
+              </li>
+              <li>
+                <span class="namelist"
+                  ><a href="#" class="link">EZEKIEL BORO</a></span
+                >
+              </li>
+              <li>
+                <span class="namelist"
+                  ><a href="#" class="link">G YOUNG VAN</a></span
+                >
+              </li>
+              <li>
+                <span class="namelist"
+                  ><a href="#" class="link">HIMANSHU MISHRA</a></span
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-3">
+            <ul>
+              <li>
+                <span class="namelist"
+                  ><a href="#" class="link">IBRAHIM AKANBI</a></span
+                >
+              </li>
+              <li>
+                <span class="namelist"
+                  ><a href="#" class="link">IBRAHIM YEKINNI</a></span
+                >
+              </li>
+              <li>
+                <span class="namelist"
+                  ><a href="#" class="link">J.C.DIEHL</a></span
+                >
+              </li>
+              <li>
+                <span class="namelist"
+                  ><a href="#" class="link">J.N.AJULUCHUKWU</a></span
+                >
+              </li>
+              <li>
+                <span class="namelist"
+                  ><a href="#" class="link">JIBOLA YEKINNI</a></span
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-3">
+            <ul>
+              <li>
+                <span class="namelist"
+                  ><a href="#" class="link">LAWAL BAKARE</a></span
+                >
+              </li>
+              <li>
+                <span class="namelist"
+                  ><a href="#" class="link">LENNAERT KEMPERS</a></span
+                >
+              </li>
+              <li>
+                <span class="namelist"
+                  ><a href="#" class="link">MASAKO KITAZAKI</a></span
+                >
+              </li>
+              <li>
+                <span class="namelist"
+                  ><a href="#" class="link">MAYA ISLA MCBEATH</a></span
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row" style="margin-top: 50px; margin-bottom: 200px">
+          <div class="col-sm-3">
+            <ul>
+              <li>
+                <span class="namelist"
+                  ><a href="#" class="link">OBINNA NNEWUIHE</a></span
+                >
+              </li>
+              <li>
+                <span class="namelist"
+                  ><a href="#" class="link">OLAJIDE OBASAN</a></span
+                >
+              </li>
+              <li>
+                <span class="namelist"
+                  ><a href="#" class="link">OLAKUNLE YEKINNI</a></span
+                >
+              </li>
+              <li>
+                <span class="namelist"
+                  ><a href="#" class="link">OLAKUNMI OGUNYEMI</a></span
+                >
+              </li>
+              <li>
+                <span class="namelist"
+                  ><a href="#" class="link">OMOTOLA OREDIPE</a></span
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-3">
+            <ul>
+              <li>
+                <span class="namelist"
+                  ><a href="#" class="link">PAUL CHANG</a></span
+                >
+              </li>
+              <li>
+                <span class="namelist"
+                  ><a href="#" class="link">SAMOD SAMUSI</a></span
+                >
+              </li>
+              <li>
+                <span class="namelist"
+                  ><a href="#" class="link">SANDRA ONWUEKWE</a></span
+                >
+              </li>
+              <li>
+                <span class="namelist"
+                  ><a href="#" class="link">SHIVI KAPIL</a></span
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-6">
+            <ul>
+              <li>
+                <span class="namelist"
+                  ><a
+                    href="https://ng.linkedin.com/in/temilolorun-aiyelari-81ab5b57"
+                    class="link"
+                    style="text-decoration: none"
+                    >TEMILOLORUN AIYELARI</a
+                  ></span
+                >
+              </li>
+              <li>
+                <span class="namelist"
+                  ><a href="#" class="link">TINE HOOGTERP</a></span
+                >
+              </li>
+              <li>
+                <span class="namelist"
+                  ><a href="#" class="link">TOBIAS HEBBINK</a></span
+                >
+              </li>
+              <li>
+                <span class="namelist"
+                  ><a href="#" class="link">TOPE AGBANA</a></span
+                >
+              </li>
+              <li>
+                <span class="namelist"
+                  ><a href="#" class="link">VICTOR NWAOKOCHA</a></span
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="thirdbutton" class="button">JOIN THE HEARTHY PROJECT</div>
+      </div>
+      <!--this part for the logo parts-->
+    </div>
+    <!--this is the footer magic baby-->
+    <footer id="footer">
+      <div class="row" id="foot">
+        <div class="col-sm-6" id="footer2">
+          <p style="color: #333d47">.</p>
+          <h3 id="foothead2">GET UPDATES, LEAVE US YOUR EMAIL</h3>
+          <input type="textarea" value="you@email.com" id="input" />
+          <button id="inputbutt">SUBSCRIBE FOR UPDATES</button>
+        </div>
+        <div class="col-sm-6" id="footer1">
+          <img
+            id="footerlogo"
+            src="The_Hearty_Project_Logo_Monochrome.svg"
+            height="70"
+          />
+          <ul id="footerlisthead">
+            <li class="footerlist">
+              <img src="1498945850_facebook_circle_gray.svg" height="30" />
+              FACEBOOK
+            </li>
+            <li class="footerlist">
+              <img src="1498945806_twitter_circle_gray.svg" height="30" />
+              TWITTER
+            </li>
+            <li class="footerlist">
+              <img src="1498945786_instagram_circle_gray.svg" height="30" />
+              INSTAGRAM
+            </li>
+            <li class="footerlist">
+              <img src="if_medium_social_media_logo_1407938.svg" height="29" />
+              READ THE PROJECT DIARY
+            </li>
+          </ul>
+          <h4 id="footercopy">The Hearty Project,Copyright 2017 | Legal</h4>
+        </div>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="heart.js"></script>
+  </body>
 </html>

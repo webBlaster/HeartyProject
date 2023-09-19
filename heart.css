@@ -1,539 +1,536 @@
 /*this section is for the body and the layout the divs thats is*/
-body{
-	border:none;
-	margin:0px;
-	padding:0px;
+body {
+  border: none;
+  margin: 0;
+  padding: 0;
 }
-.box{
-	margin:0px;
-	padding:0px;
-	border:none;
+.box {
+  margin: 0px;
+  padding: 0px;
+  border: none;
 }
-#first{
-	background-color:#ffb400;
-	color:#ffffff;
-	height:;
-	font-family:"Muli",sans-serif;
+#first {
+  background-color: #ffb400;
+  color: #ffffff;
+  font-family: "Muli", sans-serif;
+  height: 840px;
 }
-#second{
-	background-color:#ffffff;
-	color:#95989A;
-	opacity:90%;
-	height:;
-	font-size:20px;
-	font-family:"Muli",sans-serif;
+#second {
+  background-color: #ffffff;
+  color: #95989a;
+  opacity: 90%;
+  font-size: 20px;
+  font-family: "Muli", sans-serif;
 }
-#third{
-	background-color:#51d6d1;
-	color:#ffffff;
-	font-family:"Muli",sans-serif;
+#third {
+  background-color: #51d6d1;
+  color: #ffffff;
+  font-family: "Muli", sans-serif;
 }
-#footer{
-	color:#999ea3;
-	padding:0px;
-	border:none;
-	font-family:"Muli",sans-serif;
+#footer {
+  color: #999ea3;
+  padding: 0px;
+  border: none;
+  font-family: "Muli", sans-serif;
 }
-#firsthead{
-	font-size:96px;
-	font-weight:800;
-	margin-left:60px;
-	font-style:Extra-Bold;
+#firsthead {
+  font-size: 96px;
+  font-weight: 800;
+  margin-left: 60px;
+  font-style: Extra-Bold;
 }
-#para{
-	margin-left:60px;
-	font-size:24px;
-	margin-top:15px;
-	margin-bottom:70px;
-	font-style:regular;
-	font-weight:400;
+#para {
+  margin-left: 60px;
+  font-size: 24px;
+  margin-top: 15px;
+  margin-bottom: 70px;
+  font-style: regular;
+  font-weight: 400;
 }
 
 /*all fancy buttons*/
-.button{
-	background-color:inherit;
-	border:2px solid white;
-	color:white;
-	padding:20px;
-	width:350px;
-	border-radius:50px;
-	text-align:center;
-	font-size:16px;
-	margin-bottom:75px;
-	font-weight:700;
+.button {
+  background-color: inherit;
+  border: 2px solid white;
+  color: white;
+  padding: 20px;
+  width: 350px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 16px;
+  /* margin-bottom: 75px; */
+  font-weight: 700;
 }
-.button:hover{
-	background-color:#f9fbfb;
-	border:2px solid white;
-	color:#ffb400;
-	width:350px;
-	transition:0.3s;
-	font-weight:700;
-	mouse:pointer;
+.button:hover {
+  background-color: #f9fbfb;
+  border: 2px solid white;
+  color: #ffb400;
+  width: 350px;
+  transition: 0.3s;
+  font-weight: 700;
+  cursor: pointer;
 }
-#firstbutton{
-	margin-left:60px;
+#firstbutton {
+  margin-left: 60px;
 }
-#secondbutton{
-	border:2px solid #95989A;
-	margin:0 auto;
-	color:#95989A;
-	font-weight:700;
-	margin-bottom:90px;
+#secondbutton {
+  border: 2px solid #95989a;
+  margin: 0 auto;
+  color: #95989a;
+  font-weight: 700;
+  margin-bottom: 90px;
 }
-#secondbutton:hover{
-	background-color:#95989A;
-	border:2px solid #95989A;
-	color:#f9fbfb;
-	transition:0.3s;
+#secondbutton:hover {
+  background-color: #95989a;
+  border: 2px solid #95989a;
+  color: #f9fbfb;
+  transition: 0.3s;
 }
-#thirdbutton{
-	margin:0 auto;
-	color:inherit;
-	background-color:inherit;
-	border:2px solid white;
-	color:white;
-	padding:20px;
-	width:350px;
-	border-radius:50px;
-	text-align:center;
-	font-size:16px;
-	font-weight:700;
-	
+#thirdbutton {
+  margin: 0 auto;
+  color: inherit;
+  background-color: inherit;
+  border: 2px solid white;
+  color: white;
+  padding: 20px;
+  width: 350px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
 }
-#thirdbutton:hover{
-	color:#51d6d1;
-	background-color:#f9fbfb;
-	transition:0.3s;	
+#thirdbutton:hover {
+  color: #51d6d1;
+  background-color: #f9fbfb;
+  transition: 0.3s;
 }
-.popbutton{
-	border:2px solid rgba(255,255,255,0.3);
-	color:f9fbfb;
-	border-radius:30px;
-	width:220px;
-	padding:20px;
-	text-align:center;
-	margin:0 auto;
-	font-size:10px;
-	font-family:"Muli""Sans serif";
-	font-weight:700;
+.popbutton {
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  color: f9fbfb;
+  border-radius: 30px;
+  width: 220px;
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 10px;
+  font-family: "Muli" "Sans serif";
+  font-weight: 700;
 }
-.popbutton:hover{
-	background-color:#f9fbfb;
-	border:2px solid #f9fbfb;
-	color:#546e7a;
-	transition:0.3s;
+.popbutton:hover {
+  background-color: #f9fbfb;
+  border: 2px solid #f9fbfb;
+  color: #546e7a;
+  transition: 0.3s;
 }
-.poptext{
-	margin-bottom:60px;
-}
-
-#secondhead{
-	font-size:50px;
-	font-weight:900;
-	margin-left:100px;
-}
-#secondhead2{
-	font-size:16px;
-	padding:0px;
-	border:none;
-	margin:none;
-	font-style:bold;
-	font-weight:700;
+.poptext {
+  margin-bottom: 60px;
 }
 
-.secondtext{
-	font-size:24px;
-	font-weight:100;
-	font-style:light;
-	border:none;
-	margin-left:130px;
-	padding-left:0;
-	text-align:left;
+#secondhead {
+  font-size: 50px;
+  font-weight: 900;
+  margin-left: 100px;
 }
-.p{
-	color:#f9fbfb;
-	font-size:24px;
-	margin-top:20px;
-	margin-bottom:50px;	
-	text-align:left;
-	margin-left:30px;
+#secondhead2 {
+  font-size: 16px;
+  padding: 0px;
+  border: none;
+  margin: none;
+  font-style: bold;
+  font-weight: 700;
 }
-	
-#span{
-	border-bottom:1px solid #b6eff1;
-	box-shadow:inset 0px -16px  0px #b6eff1;
 
+.secondtext {
+  font-size: 24px;
+  font-weight: 100;
+  font-style: light;
+  border: none;
+  margin-left: 130px;
+  padding-left: 0;
+  text-align: left;
 }
-.{
+.p {
+  color: #f9fbfb;
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  text-align: left;
+  margin-left: 30px;
+}
+
+#span {
+  border-bottom: 1px solid #b6eff1;
+  box-shadow: inset 0px -16px 0px #b6eff1;
+}
+/* .{
 	border-bottom:1px solid #b6eff1;
 	box-shadow:inset 0px -7px  0px #b6eff1;
+} */
+
+.span2:hover {
+  opacity: 5%;
+  transition: 0.3s;
 }
-.span2:hover{
-	opacity:5%;
-	transition:0.3s;
-	}
-.link{
-	text-decoration:none;
-	color:#f9fbfb;
+.link {
+  text-decoration: none;
+  color: #f9fbfb;
 }
-.link:hover{
-	color:#f9fbfb;
-	text-decoration:none;
+.link:hover {
+  color: #f9fbfb;
+  text-decoration: none;
 }
 
 /*for the third page. list styling sha and stuffs*/
 ul li {
-	text-decoration:none;
-	list-style-type:none;
-	color:#ffffff;
-	font-size:16px;
-	margin:2px;
-	font-weight:700;
+  text-decoration: none;
+  list-style-type: none;
+  color: #ffffff;
+  font-size: 16px;
+  margin: 2px;
+  font-weight: 700;
 }
-.namelist:hover{
-	box-shadow:inset 0px -4px  0px #ffe600;
+.namelist:hover {
+  box-shadow: inset 0px -4px 0px #ffe600;
 }
-#thirdhead{
-	color:#ffffff;
-	font-size:50px;
-	font-weight:900;
-	text-align:left;
-	margin-left:30px;
+#thirdhead {
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 900;
+  text-align: left;
+  margin-left: 30px;
 }
-#thirdhead2{
-	font-size:16px;
-	font-weight:700;
-	text-align:center;
-	margin-bottom:60px;
+#thirdhead2 {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 60px;
 }
-#vessels{
-	height:850px;
+#vessels {
+  height: 840px;
+  position: absolute;
+  right: 1px;
 }
-#firstlogo{
-	display:block;
-	 margin-left:60px; 
-	 margin-bottom:180px;
-	 margin-top:40px;
+
+#firstlogo {
+  display: block;
+  margin-left: 60px;
+  margin-bottom: 100px;
+  margin-top: 40px;
 }
 
 /*footer things*/
-#footerlogo{
-	margin-top:80px;
-	margin-left:100px;
-	margin-bottom:50px;
+#footerlogo {
+  margin-top: 80px;
+  margin-left: 100px;
+  margin-bottom: 50px;
 }
-#foothead2{
-	padding-left:10px;
-	margin-top:50px;
-	margin-bottom:150px;
-	font-size:16px; 
-	color:#999ea3;
-	font-weight:700;
+#foothead2 {
+  padding-left: 10px;
+  margin-top: 50px;
+  margin-bottom: 150px;
+  font-size: 16px;
+  color: #999ea3;
+  font-weight: 700;
 }
-#footerlisthead{
-	color:#999ea3;
-	 margin-left:70px;
+#footerlisthead {
+  color: #999ea3;
+  margin-left: 70px;
 }
-.footerlist{
-	color:#999ea3;
-	 margin-bottom:15px;
+.footerlist {
+  color: #999ea3;
+  margin-bottom: 15px;
 }
-#footercopy{
-	font-size:16px;
-	color:#999ea3;
-	margin-left:115px;
-	margin-top:50px;
+#footercopy {
+  font-size: 16px;
+  color: #999ea3;
+  margin-left: 115px;
+  margin-top: 50px;
 }
 /*divs in the footer dont mess with the code or i might shoot ya,rather be blessed with a ford you cant afford*/
-#footer1{
-	background-color:#333d47;
-	color:white;
-	height:500px;
-	text-align:left;
+#footer1 {
+  background-color: #333d47;
+  color: white;
+  height: 500px;
+  text-align: left;
 }
-#footer2{
-	background-color:#2b3948;
-	color:#f9fbfb;
-	height:500px;
-	margin:0px;
-	text-align:center;
+#footer2 {
+  background-color: #2b3948;
+  color: #f9fbfb;
+  height: 500px;
+  margin: 0px;
+  text-align: center;
 }
-#foot{
-	margin:0px;
-	border:none;
+#foot {
+  margin: 0px;
+  border: none;
 }
-#input{
-	color:#999ea3;
-	background-color:#2b3948;
-	border-bottom:2px solid #51d6d1;
-	border-top:none;
-	border-left:none;
-	border-right:none;
-	height:60px;
-	font-style:italic;
-	font-size:30px;
-	margin:none;
-	padding:;
-	width:250px;
-	margin-left:60px;
+#input {
+  color: #999ea3;
+  background-color: #2b3948;
+  border-bottom: 2px solid #51d6d1;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  height: 60px;
+  font-style: italic;
+  font-size: 30px;
+  margin: none;
+  width: 250px;
+  margin-left: 60px;
 }
-#inputbutt{
-	width:200px;
-	padding:20px;
-	text-align:center;
-	color:#f9fbfb;
-	background-color:#51d6d1;
-	border-radius:60px;
-	border:none;
-	margin:0 auto;
-	font-size:10px;
-	font-weight:700;
+#inputbutt {
+  width: 200px;
+  padding: 20px;
+  text-align: center;
+  color: #f9fbfb;
+  background-color: #51d6d1;
+  border-radius: 60px;
+  border: none;
+  margin: 0 auto;
+  font-size: 10px;
+  font-weight: 700;
 }
 /*the popout menu..it pops like monkeys that hop*/
-#popout{
-	background-color:#354351;
-	color:#f9fbfb;
-	display:none;
-	font-family:"Muli",sans-serif;
-	height:1000px;
+#popout {
+  background-color: #354351;
+  color: #f9fbfb;
+  display: none;
+  font-family: "Muli", sans-serif;
+  height: 1000px;
 }
-#dowell{
-	padding:20px;
-	border:none;
-	margin:0 auto;
-	background-color:#354351;
+#dowell {
+  padding: 20px;
+  border: none;
+  margin: 0 auto;
+  background-color: #354351;
 }
-.pop{
-	border:1px solid rgba(255,255,255,0.6);
-	border-radius:30px;
-	margin:30px;
-	height:600px;
-	text-align:center;
-	margin-left:55px;
-	padding:40px;
-	padding-bottom:60px;
+.pop {
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 30px;
+  margin: 30px;
+  height: 600px;
+  text-align: center;
+  margin-left: 55px;
+  padding: 40px;
+  padding-bottom: 60px;
 }
-#poptop{
-	border:none;
-	margin:0px;
-	padding:0px;
-	text-align:center;
-	font-size:45px;
-	font-style:bold;
-	font-weight:900;
-	padding-top:40px;
+#poptop {
+  border: none;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-size: 45px;
+  font-style: bold;
+  font-weight: 900;
+  padding-top: 40px;
 }
-#poptop2{
-	text-align:center;
-	margin-top:35px;
-	margin-bottom:50px;	
+#poptop2 {
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 50px;
 }
-.pophead{
-	margin-bottom:38px;
-	font-weight:600;
-	font-style:bold;
-	
+.pophead {
+  margin-bottom: 38px;
+  font-weight: 600;
+  font-style: bold;
 }
-.pophead2{
-	font-size:50px;
-	color:rgba(255,255,255,0.3);
+.pophead2 {
+  font-size: 50px;
+  color: rgba(255, 255, 255, 0.3);
 }
-.poptext{
-	font-size:18px;
-	margin-bottom:80px;
+.poptext {
+  font-size: 18px;
+  margin-bottom: 80px;
 }
 /* fonts stuffs*/
-.header{
-	font-style:bold;
-	font-weight:900;
-	letter-spacing:-0.5px;
+.header {
+  font-style: bold;
+  font-weight: 900;
+  letter-spacing: -0.5px;
 }
 
 /*for responsize text*/
-@media only screen and (max-width: 1369px){
-#vessels{
-	height:735.8px;
+@media only screen and (max-width: 1369px) {
+  #vessels {
+    height: 735.8px;
+  }
+  #firsthead {
+    font-size: 70px;
+  }
 }
-#firsthead{
-	font-size:70px;
+@media only screen and (max-width: 1300px) {
+  #firsthead {
+    font-size: 70px;
+  }
+  #vessels {
+    display: none;
+  }
+  #para {
+    font-size: 20px;
+  }
 }
+@media only screen and (max-width: 868px) {
+  #vessels {
+    display: none;
+  }
 }
-@media only screen and (max-width: 1300px){
-#firsthead{
-	font-size:70px;
+@media only screen and (max-width: 768px) {
+  #firsthead {
+    font-size: 60px;
+  }
+  #vessels {
+    display: none;
+  }
+  #secondhead {
+    font-size: 40px;
+  }
+  #secondhead2 {
+    font-size: 20px;
+  }
+  .secondtext {
+    font-size: 15px;
+  }
+  #thirdhead {
+    font-size: 30px;
+  }
 }
-#vessels{
-display:none;
+@media only screen and (max-width: 668px) {
+  #firsthead {
+    font-size: 40px;
+  }
+  #vessels {
+    display: none;
+  }
+  #para {
+    font-size: 15px;
+  }
+  #secondhead {
+    font-size: 25px;
+  }
+  #secondhead2 {
+    font-size: 12px;
+  }
+  .secondtext {
+    font-size: 15px;
+  }
+  #thirdhead {
+    font-size: 20px;
+  }
 }
-#para{
-	font-size:20px;
-}
-}
-@media only screen and (max-width: 868px){
-#vessels{
-	display:none;
-}
-}
-@media only screen and (max-width: 768px){
-#firsthead{
-	font-size:60px;
-}
-#vessels{
-	display:none;
-}
-#secondhead{
-	font-size:40px;
-}
-#secondhead2{
-	font-size:20px;
-}
-.secondtext{
-	font-size:15px;
-}
-#thirdhead{
-	font-size:30px;
-}
-}
-@media only screen and (max-width: 668px){
-#firsthead{
-	font-size:40px;
-}
-#vessels{
-	display:none;
-}
-#para{
-	font-size:15px;
-}
-#secondhead{
-	font-size:25px;
-}
-#secondhead2{
-	font-size:12px;
-}
-.secondtext{
-	font-size:15px;
-}
-#thirdhead{
-	font-size:20px;
-}
-}
-@media only screen and (max-width: 500px){
-#input{
-	margin-left:10px;
-	margin-bottom:40px;
-}
-#footercopy{
-	margin-left:20px;
-	font-size:13px;
-}
-#footerlisthead{
-	margin-left:0px;
-}
-.footerlist{
-	margin-left:0px;
-}
-#foothead2{
-	font-size:10px;
-}
-#firstlogo{
-	margin-left:20px;
-}
-#para{
-	margin-left:10px;
-	font-size:13px;
-}
-#firsthead{
-	font-size:35px;
-	margin-left:10px;
-}
-#vessels{
-	display:none;
-}
-#secondhead{
-	font-size:25px;
-	margin-left:20px;
-	
-}
-#secondhead2{
-	font-size:12px;
-}
-.secondtext{
-	font-size:15px;
-	margin-left:0px
-}
-#thirdhead{
-	font-size:20px;
-}
-#thirdhead2{
-	font-size:10px;
-	font-weight:700;
-	text-align:center;
-	margin-bottom:60px;
-}
-.p{
-	font-size:15px;
-}
-#footerlogo{
-	margin-left:20px;
-}
+@media only screen and (max-width: 500px) {
+  #input {
+    margin-left: 10px;
+    margin-bottom: 40px;
+  }
+  #footercopy {
+    margin-left: 20px;
+    font-size: 13px;
+  }
+  #footerlisthead {
+    margin-left: 0px;
+  }
+  .footerlist {
+    margin-left: 0px;
+  }
+  #foothead2 {
+    font-size: 10px;
+  }
+  #firstlogo {
+    margin-left: 20px;
+  }
+  #para {
+    margin-left: 10px;
+    font-size: 13px;
+  }
+  #firsthead {
+    font-size: 35px;
+    margin-left: 10px;
+  }
+  #vessels {
+    display: none;
+  }
+  #secondhead {
+    font-size: 25px;
+    margin-left: 20px;
+  }
+  #secondhead2 {
+    font-size: 12px;
+  }
+  .secondtext {
+    font-size: 15px;
+    margin-left: 0px;
+  }
+  #thirdhead {
+    font-size: 20px;
+  }
+  #thirdhead2 {
+    font-size: 10px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .p {
+    font-size: 15px;
+  }
+  #footerlogo {
+    margin-left: 20px;
+  }
 }
 /*responsize buttons and stuff*/
-@media only screen and (max-width:1200px){
-.popbutton{
-	width:140px;
+@media only screen and (max-width: 1200px) {
+  .popbutton {
+    width: 140px;
+  }
+  .popbutton:hover {
+    width: 140px;
+  }
 }
-.popbutton:hover{
-	width:140px;
+@media only screen and (max-width: 1000px) {
+  .popbutton {
+    width: 150px;
+  }
+  .popbutton:hover {
+    width: 150px;
+  }
+  .pophead {
+    font-size: 20px;
+  }
 }
-}
-@media only screen and (max-width:1000px){
-.popbutton{
-	width:150px;
-}
-.popbutton:hover{
-	width:150px;
-}
-.pophead{
-	font-size:20px;
-}
-}
-@media only screen and (max-width:600px){
-ul li{
-	font-size:10px;
-	margin-bottom:5px
-}
-#firsthead2{
-	font-size:10px;
-}
-#thirdbutton{
-	width:200px;
-	font-size:10px;
-}
-#thirdbutton:hover{
-	width:200px;
-	font-size:10px;
-	transition:0.4s;
-	
-}
-#firstbutton{
-	margin-left:60px;
-}
-#firstbutton:hover{
-	margin-left:60px;
-}
-.button{
-	width:190px;
-	font-size:10px;
-}
-.button:hover{
-	width:190px;
-	font-size:10px;
-}
-.popbutton{
-	width:200px;
-}
-.popbutton:hover{
-	width:200px;
-}
+@media only screen and (max-width: 600px) {
+  ul li {
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
+  #firsthead2 {
+    font-size: 10px;
+  }
+  #thirdbutton {
+    width: 200px;
+    font-size: 10px;
+  }
+  #thirdbutton:hover {
+    width: 200px;
+    font-size: 10px;
+    transition: 0.4s;
+  }
+  #firstbutton {
+    margin-left: 60px;
+  }
+  #firstbutton:hover {
+    margin-left: 60px;
+  }
+  .button {
+    width: 190px;
+    font-size: 10px;
+  }
+  .button:hover {
+    width: 190px;
+    font-size: 10px;
+  }
+  .popbutton {
+    width: 200px;
+  }
+  .popbutton:hover {
+    width: 200px;
+  }
 }
