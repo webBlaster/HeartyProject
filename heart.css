@@ -352,7 +352,7 @@ ul li {
 /*for responsize text*/
 @media only screen and (max-width: 1369px) {
   #first {
-    height: 540px;
+    height: 840px;
   }
   #vessels {
     height: 735.8px;
@@ -378,6 +378,9 @@ ul li {
   }
 }
 @media only screen and (max-width: 768px) {
+#first {
+    height: 540px;
+  }
   #firsthead {
     font-size: 60px;
   }
