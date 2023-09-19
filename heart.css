@@ -401,6 +401,9 @@ ul li {
   }
 }
 @media only screen and (max-width: 500px) {
+	#first {
+    height: 540px;
+  }
   #input {
     margin-left: 10px;
     margin-bottom: 40px;
